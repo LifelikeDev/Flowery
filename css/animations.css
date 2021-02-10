@@ -1,0 +1,132 @@
+/* Landing Page Animations */
+
+#flower-head-top {
+  animation: contRotate 15s infinite forwards linear;
+  -moz-animation: contRotate 15s infinite forwards linear;
+  -webkit-animation: contRotate 15s infinite forwards linear;
+  transform-origin: center;
+  -moz-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-box: fill-box;
+  -moz-transform-box: fill-box;
+  -webkit-transform-box: fill-box;
+}
+
+#small-flower-left,
+#small-flower-right {
+  animation: contRotateNeg 10s infinite forwards linear;
+  -moz-animation: contRotateNeg 10s infinite forwards linear;
+  -webkit-animation: contRotateNeg 10s infinite forwards linear;
+  transform-origin: center;
+  -moz-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-box: fill-box;
+  -moz-transform-box: fill-box;
+  -webkit-transform-box: fill-box;
+}
+
+#left-upward-stem {
+  animation: levitateDown 2s infinite alternate ease;
+  -moz-animation: levitateDown 2s infinite alternate ease;
+  -webkit-animation: levitateDown 2s infinite alternate ease;
+}
+
+#right-upward-stem {
+  animation: levitateUp 2s infinite alternate ease;
+  -moz-animation: levitateUp 2s infinite alternate ease;
+  -webkit-animation: levitateUp 2s infinite alternate ease;
+}
+
+#left-stray-leaf {
+  animation: rotateUp 8s infinite linear;
+  -moz-animation: rotateUp 8s infinite linear;
+  -webkit-animation: rotateUp 8s infinite linear;
+  transform-origin: center;
+  -moz-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-box: fill-box;
+  -moz-transform-box: fill-box;
+  -webkit-transform-box: fill-box;
+}
+
+#right-stray-leaf {
+  animation: rotateDown 8s infinite linear;
+  -moz-animation: rotateDown 8s infinite linear;
+  -webkit-animation: rotateDown 8s infinite linear;
+  transform-origin: center;
+  -moz-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-box: fill-box;
+  -moz-transform-box: fill-box;
+  -webkit-transform-box: fill-box;
+}
+
+@keyframes contRotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes contRotateNeg {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes levitateUp {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateX(20deg);
+  }
+}
+
+@keyframes levitateDown {
+  0% {
+    transform: rotateX(20deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes rotateUp {
+  0%,
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+
+  25% {
+    transform: rotate(-90deg) translateY(-15px);
+  }
+
+  50% {
+    transform: rotate(0deg) translateY(0);
+  }
+
+  75% {
+    transform: rotate(90deg) translateY(15px);
+  }
+}
+
+@keyframes rotateDown {
+  0%,
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+
+  25% {
+    transform: rotate(70deg) translateY(15px);
+  }
+
+  50% {
+    transform: rotate(0deg) translateY(0);
+  }
+
+  75% {
+    transform: rotate(-40deg) translateY(-15px);
+  }
+}
