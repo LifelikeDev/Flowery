@@ -23,3 +23,35 @@ hamburgerClose.addEventListener('click', () => {
     headerTop.style.backgroundColor = 'var(--primary-bg-color)'; 
     headerTop.style.color = 'var(--primary-text-color)';
 });
+
+
+// Image Carousel
+
+const imagesWrapper = document.querySelector('.images-wrapper');
+const eachImage = document.querySelectorAll('.each-carousel__image');
+const img = document.querySelectorAll('.each-carousel__image img');
+
+let index = 0;
+
+function slide() {
+    
+    index ++;
+
+    if (index > eachImage.length - 1) {
+        index = 0;
+    }
+
+    const imgWidth = img.style.width.value;
+
+    imagesWrapper.style.transform = `translate(${-index * imgWidth}px)`;
+
+}
+
+// setInterval(slide, 3000);
+
+// window.addEventListener('resize', () => {
+
+//     console.log(innerWidth);
+// });
+
+// console.log(innerWidth);
