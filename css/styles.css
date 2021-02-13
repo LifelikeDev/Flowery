@@ -639,6 +639,10 @@ input[type="submit"]:hover {
     font-size: 18px;
   }
 
+  .logo {
+    width: 110px;
+  }
+
   .store-section .sub-section__heading {
     font-size: 18px;
   }
