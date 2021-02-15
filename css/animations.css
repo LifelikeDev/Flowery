@@ -1,9 +1,9 @@
 /* Landing Page Animations */
 
 #flower-head-top {
-  animation: contRotate 15s infinite forwards linear;
-  -moz-animation: contRotate 15s infinite forwards linear;
-  -webkit-animation: contRotate 15s infinite forwards linear;
+  animation: contRotate 18s infinite forwards linear;
+  -moz-animation: contRotate 18s infinite forwards linear;
+  -webkit-animation: contRotate 18s infinite forwards linear;
   transform-origin: center;
   -moz-transform-origin: center;
   -webkit-transform-origin: center;
@@ -14,9 +14,9 @@
 
 #small-flower-left,
 #small-flower-right {
-  animation: contRotateNeg 10s infinite forwards linear;
-  -moz-animation: contRotateNeg 10s infinite forwards linear;
-  -webkit-animation: contRotateNeg 10s infinite forwards linear;
+  animation: contRotateNeg 13s infinite forwards linear;
+  -moz-animation: contRotateNeg 13s infinite forwards linear;
+  -webkit-animation: contRotateNeg 13s infinite forwards linear;
   transform-origin: center;
   -moz-transform-origin: center;
   -webkit-transform-origin: center;
@@ -26,21 +26,21 @@
 }
 
 #left-upward-stem {
-  animation: levitateDown 2s infinite alternate ease;
-  -moz-animation: levitateDown 2s infinite alternate ease;
-  -webkit-animation: levitateDown 2s infinite alternate ease;
+  animation: levitateDown 3s infinite alternate ease;
+  -moz-animation: levitateDown 3s infinite alternate ease;
+  -webkit-animation: levitateDown 3s infinite alternate ease;
 }
 
 #right-upward-stem {
-  animation: levitateUp 2s infinite alternate ease;
-  -moz-animation: levitateUp 2s infinite alternate ease;
-  -webkit-animation: levitateUp 2s infinite alternate ease;
+  animation: levitateUp 3s infinite alternate ease;
+  -moz-animation: levitateUp 3s infinite alternate ease;
+  -webkit-animation: levitateUp 3s infinite alternate ease;
 }
 
 #left-stray-leaf {
-  animation: rotateUp 8s infinite linear;
-  -moz-animation: rotateUp 8s infinite linear;
-  -webkit-animation: rotateUp 8s infinite linear;
+  animation: rotateUp 10s infinite linear;
+  -moz-animation: rotateUp 10s infinite linear;
+  -webkit-animation: rotateUp 10s infinite linear;
   transform-origin: center;
   -moz-transform-origin: center;
   -webkit-transform-origin: center;
@@ -50,9 +50,9 @@
 }
 
 #right-stray-leaf {
-  animation: rotateDown 8s infinite linear;
-  -moz-animation: rotateDown 8s infinite linear;
-  -webkit-animation: rotateDown 8s infinite linear;
+  animation: rotateDown 10s infinite linear;
+  -moz-animation: rotateDown 10s infinite linear;
+  -webkit-animation: rotateDown 10s infinite linear;
   transform-origin: center;
   -moz-transform-origin: center;
   -webkit-transform-origin: center;

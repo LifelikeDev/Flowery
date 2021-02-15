@@ -55,3 +55,14 @@ function slide() {
 // });
 
 // console.log(innerWidth);
+
+// Update copyright year
+
+const year = document.getElementById('year');
+const date = new Date();
+
+let currentYear = date.getFullYear();
+
+year.innerHTML = currentYear;
+
+console.log(currentYear);
