@@ -47,13 +47,6 @@ function slide() {
 
 }
 
-// setInterval(slide, 3000);
-
-// window.addEventListener('resize', () => {
-
-//     console.log(innerWidth);
-// });
-
 // console.log(innerWidth);
 
 // Update copyright year
@@ -64,5 +57,3 @@ const date = new Date();
 let currentYear = date.getFullYear();
 
 year.innerHTML = currentYear;
-
-console.log(currentYear);
