@@ -8,3 +8,5 @@ This website was built with
 - JavaScript
 
 Landing page SVG Animation done with CSS ❤
+
+Find the live site deployed [here](https://flowery-co.netlify.app)
